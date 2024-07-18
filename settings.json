@@ -1,0 +1,188 @@
+{
+	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ReflowComments: true, AlignTrailingComments: Always, SpacesBeforeTrailingComments: 4}",
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.autopep8",
+		"editor.formatOnType": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"better-comments.tags": [
+		{
+			"backgroundColor": "transparent",
+			"bold": true,
+			"color": "#FF2D00",
+			"italic": false,
+			"strikethrough": false,
+			"tag": "!",
+			"underline": false
+		},
+		{
+			"backgroundColor": "transparent",
+			"bold": false,
+			"color": "#3498DB",
+			"italic": false,
+			"strikethrough": false,
+			"tag": "?",
+			"underline": false
+		},
+		{
+			"backgroundColor": "transparent",
+			"bold": false,
+			"color": "#474747",
+			"italic": false,
+			"strikethrough": true,
+			"tag": "//",
+			"underline": false
+		},
+		{
+			"backgroundColor": "transparent",
+			"bold": false,
+			"color": "#FF8C00",
+			"italic": false,
+			"strikethrough": false,
+			"tag": "todo",
+			"underline": false
+		},
+		{
+			"backgroundColor": "transparent",
+			"bold": false,
+			"color": "#98C379",
+			"italic": false,
+			"strikethrough": false,
+			"tag": "*",
+			"underline": false
+		}
+	],
+	"bootstrapIntelliSense.version": "Bootstrap v5.3",
+	"cSpell.userWords": ["Boto", "financials", "Hatton", "SDLC", "webfonts"],
+	"code-runner.executorMap": {
+		"FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"ahk": "autohotkey",
+		"applescript": "osascript",
+		"autoit": "autoit3",
+		"bat": "cmd /c",
+		"c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"clojure": "lein exec",
+		"coffeescript": "coffee",
+		"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"crystal": "crystal",
+		"csharp": "scriptcs",
+		"d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+		"dart": "dart",
+		"fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fsharp": "fsi",
+		"go": "go run",
+		"groovy": "groovy",
+		"haskell": "runghc",
+		"haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+		"javascript": "node",
+		"julia": "julia",
+		"kit": "kitc --run",
+		"less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+		"lisp": "sbcl --script",
+		"lua": "lua",
+		"mojo": "mojo run",
+		"nim": "nim compile --verbosity:0 --hints:off --run",
+		"objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"ocaml": "ocaml",
+		"pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+		"perl": "perl",
+		"perl6": "perl6",
+		"php": "php",
+		"powershell": "powershell -ExecutionPolicy ByPass -File",
+		"python": "python3",
+		"r": "Rscript",
+		"racket": "racket",
+		"ruby": "ruby",
+		"rust": "cargo run",
+		"sass": "sass --style expanded",
+		"scala": "scala",
+		"scheme": "csi -script",
+		"scss": "scss --style expanded",
+		"shellscript": "bash",
+		"sml": "cd $dir && sml $fileName",
+		"swift": "swift",
+		"typescript": "bun run",
+		"v": "v run",
+		"vbscript": "cscript //Nologo",
+		"zig": "zig run"
+	},
+	"diffEditor.wordWrap": "on",
+	"editor.accessibilitySupport": "off",
+	"editor.codeLensFontFamily": "Fira Code Retina",
+	"editor.fontFamily": "FiraCode Nerd Font Propo",
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "400",
+	"editor.formatOnSave": true,
+	"editor.inlayHints.fontFamily": "Fira Code Retina",
+	"editor.linkedEditing": true,
+	"editor.minimap.enabled": false,
+	"editor.scrollBeyondLastLine": false,
+	"editor.tabSize": 2,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"emmet.excludeLanguages": [],
+	"emmet.includeLanguages": {
+		"html": "html"
+	},
+	"emmet.preferences": {},
+	"emmet.triggerExpansionOnTab": true,
+	"files.exclude": {
+		"**/.git": false
+	},
+	"git.autofetch": true,
+	"github.copilot.editor.enableAutoCompletions": true,
+	"github.copilot.enable": {
+		"*": false,
+		"markdown": false,
+		"plaintext": false,
+		"python": false,
+		"scminput": false
+	},
+	"html.format.contentUnformatted": "",
+	"jest.runMode": "on-demand",
+	"liveServer.settings.donotVerifyTags": true,
+	"mdb.confirmRunAll": false,
+	"notebook.output.fontFamily": "Fira Code",
+	"notebook.output.scrolling": true,
+	"notebook.output.wordWrap": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"rainbow_csv.autodetect_separators": ["TAB", ",", ";", "|", "~"],
+	"settingsSync.ignoredSettings": ["editor.fontFamily"],
+	"terminal.integrated.enableMultiLinePasteWarning": "auto",
+	"terminal.integrated.env.osx": {
+		"FIG_NEW_SESSION": "1"
+	},
+	"terminal.integrated.fontFamily": "FiraCode Nerd Font Propo",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"vsicons.dontShowNewVersionMessage": true,
+	"workbench.colorTheme": "Atom One Dark",
+	"workbench.iconTheme": "a-file-icon-vscode",
+	"workbench.panel.defaultLocation": "bottom",
+	"workbench.settings.applyToAllProfiles": ["editor.formatOnSave"],
+	"workbench.productIconTheme": "material-product-icons",
+	"editor.guides.bracketPairs": true
+}
